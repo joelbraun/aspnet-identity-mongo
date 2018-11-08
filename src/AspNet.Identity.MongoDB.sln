@@ -8,6 +8,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreTests", "CoreTests\Core
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Identity.MongoDB", "Microsoft.AspNetCore.Identity.MongoDB\Microsoft.AspNetCore.Identity.MongoDB.csproj", "{7FCE71D2-7565-4240-AB2C-96D929B101CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetIdentity.UnitTests", "AspNetIdentity.UnitTests\AspNetIdentity.UnitTests.csproj", "{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetIdentity.IntegrationTests", "AspNetIdentity.IntegrationTests\AspNetIdentity.IntegrationTests.csproj", "{82F57DDA-A2AB-4F52-838A-C30B25B20D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,30 @@ Global
 		{7FCE71D2-7565-4240-AB2C-96D929B101CC}.Release|x64.Build.0 = Release|Any CPU
 		{7FCE71D2-7565-4240-AB2C-96D929B101CC}.Release|x86.ActiveCfg = Release|Any CPU
 		{7FCE71D2-7565-4240-AB2C-96D929B101CC}.Release|x86.Build.0 = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|x64.Build.0 = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Debug|x86.Build.0 = Debug|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|x64.ActiveCfg = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|x64.Build.0 = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|x86.ActiveCfg = Release|Any CPU
+		{D4AE62EA-2C19-485B-B6C7-BE107E4CA426}.Release|x86.Build.0 = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|x64.Build.0 = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Debug|x86.Build.0 = Debug|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|x64.ActiveCfg = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|x64.Build.0 = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|x86.ActiveCfg = Release|Any CPU
+		{82F57DDA-A2AB-4F52-838A-C30B25B20D59}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
